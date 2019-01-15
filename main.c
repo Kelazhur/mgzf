@@ -28,7 +28,23 @@ int main()
             scanf("%c",&enter);
         }
         if(code==2)
-        {  
+        {
+            printf("正在删除最后一个敏感字符……\n");
+            if(index>0)
+            {
+                index--;
+                printf("删除成功，点击回车继续\n");
+                char enter;
+                scanf("%c",&enter);
+                scanf("%c",&enter);
+            }
+            else
+            {
+                printf("删除失败，无敏感字符，点击回车继续\n");
+                char enter;
+                scanf("%c",&enter);
+                scanf("%c",&enter);
+            }
         }
         if(code==3)
         {  
