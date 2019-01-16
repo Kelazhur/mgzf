@@ -93,7 +93,7 @@ int main()
                 {
                     break;
                 }
-                if(isMingan(arr[i])==1)
+                if(isMingan(neirong[i])==1)
                 {
                     neirong[i]='*';
                 }
